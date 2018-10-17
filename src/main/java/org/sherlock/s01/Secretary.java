@@ -15,11 +15,13 @@ import java.util.stream.Collectors;
  */
 @Component
 @RequiredArgsConstructor
+//why this class is final and doesn't have interface?
+// меня не подкупишь и на прокси не заменишь
 public final class Secretary {
     private final Typist typist;
     private final PrintеrStation printer;
 
-    @Scheduled(fixedDelay = 10000)
+    @Scheduled(fixedDelay = 100000)
     @SneakyThrows
     public void handle() {
         List<String> lines = Files.lines(Paths.get("postbox/envelop.txt")).collect(Collectors.toList());

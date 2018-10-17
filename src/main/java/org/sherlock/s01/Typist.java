@@ -13,6 +13,6 @@ import java.util.List;
 public final class Typist {
 
     public String imprint(List<String> lines) {
-        return lines.stream().skip(2).reduce((s, s2) -> s +"\n"+ s2).orElseGet(() -> "empty text");
+        return lines.stream().skip(2).reduce((s, s2) -> s +"\n"+ s2).orElse("empty text");
     }
 }
