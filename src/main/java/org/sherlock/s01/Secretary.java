@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 // меня не подкупишь и на прокси не заменишь
 public final class Secretary {
     private final Typist typist;
-    private final PrintеrStation printer;
+    private final РrintеrStation printer;
 
     @Scheduled(fixedDelay = 100000)
     @SneakyThrows
