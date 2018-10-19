@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
  */
 @Component
 @RequiredArgsConstructor
-//why this class is final and doesn't have interface?
+//why this class is final and doesn't have an interface?
 // меня не подкупишь и на прокси не заменишь
 public final class Secretary {
     private final Typist typist;

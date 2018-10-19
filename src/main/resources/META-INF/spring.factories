@@ -1,0 +1,5 @@
+
+
+
+
+org.springframework.context.ApplicationContextInitializer = org.sherlock.s01.infra.CtxInitializer

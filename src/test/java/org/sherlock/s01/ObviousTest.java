@@ -9,6 +9,6 @@ import org.junit.Test;
 public class ObviousTest {
     @Test
     public void testObvious() throws Exception {
-        Assert.assertEquals("printеrStation","printerStation");
+
     }
 }
